@@ -11,9 +11,9 @@ Positional arguments:
 
 Options:
   --client-id CLIENT-ID
-                         API's Client ID'
+                         API's Client ID
   --client-secret CLIENT-SECRET
-                         API's Client Secret'
+                         API's Client Secret
   --output OUTPUT, -o OUTPUT
   --help, -h             display this help and exit
 

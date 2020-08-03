@@ -20,8 +20,8 @@ import (
 )
 
 var args struct {
-	ClientId     string `arg:"env:CLIENT_ID,--client-id" help:"API's Client ID'"`
-	ClientSecret string `arg:"env:CLIENT_SECRET,--client-secret" help:"API's Client Secret'"`
+	ClientId     string `arg:"env:CLIENT_ID,--client-id" help:"API's Client ID"`
+	ClientSecret string `arg:"env:CLIENT_SECRET,--client-secret" help:"API's Client Secret"`
 	AlbumId      string `arg:"positional,required" help:"Album ID"`
 	OutputPath   string `arg:"-o,--output,required"`
 }
